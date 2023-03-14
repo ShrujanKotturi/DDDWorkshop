@@ -3,18 +3,18 @@ namespace DDDWorshop.Domain;
 
 public class Cart
 {
-    private List<Product> _products = new();
+    private List<Item> _items = new();
 
-    public void Add(Product product)
+    public void Add(Item item)
     {
-        _products.Add(product);
+        _items.Add(item);
     }
 
-    public List<Product> Get() => _products;
+    public List<Item> Get() => _items;
 
     public override string ToString()
     {
-        return string.Join(" , ", _products.Select(product => $"{product}"));
+        return string.Join(" , ", _items.Select(item => $"{item}"));
     }
 
 }
