@@ -11,6 +11,9 @@ class Program
         var cart = new Cart();
         cart.Add(applePencil);
 
+        var sonyHeadphone = new Product("Sony Headphone");
+        cart.Add(sonyHeadphone);
+
         Console.WriteLine("--------------------------------------------------------");
         Console.WriteLine("Cart = " + cart);
         List<Product> products = cart.Get();
