@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWorkshop.Application", "DDDWorkshop.Application\DDDWorkshop.Application.csproj", "{4A8BB885-99CA-4E3D-87A2-677CA23D3D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWorshop.Domain", "DDDWorshop.Domain\DDDWorshop.Domain.csproj", "{0C091C68-3268-4540-A16C-9AA827F794EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A8BB885-99CA-4E3D-87A2-677CA23D3D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8BB885-99CA-4E3D-87A2-677CA23D3D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8BB885-99CA-4E3D-87A2-677CA23D3D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8BB885-99CA-4E3D-87A2-677CA23D3D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C091C68-3268-4540-A16C-9AA827F794EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C091C68-3268-4540-A16C-9AA827F794EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C091C68-3268-4540-A16C-9AA827F794EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C091C68-3268-4540-A16C-9AA827F794EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E2A43F9-EBF6-4B92-B17D-23419A40DE62}
+	EndGlobalSection
+EndGlobal
